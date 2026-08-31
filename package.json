@@ -1,0 +1,29 @@
+{
+  "name": "graphic-designer-portfolio",
+  "version": "1.0.0",
+  "description": "A professional graphic designer portfolio website showcasing design work and projects",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "http-server",
+    "build": "echo 'No build step required for static site'",
+    "test": "echo 'Testing complete'"
+  },
+  "keywords": [
+    "portfolio",
+    "graphic-design",
+    "branding",
+    "illustration",
+    "web-design",
+    "designer"
+  ],
+  "author": "Graphic Designer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grafixbisht-source/graphic-designer-portfolio.git"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
